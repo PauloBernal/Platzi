@@ -53,7 +53,7 @@ $ ls -d [[:lower]]*[[:lower:]]
 
 
 ## Clases
-Las clases hacen referencia a un conjunto de caracteres que pueden coincidir en algún punto.
+Las clases hacen referencia a un conjunto de caracteres que pueden coincidir en algún punto y se representan con caracteres seguidos dentro de un par de corchetes.
 
 ***Ejemplo*** *Para listar los archivos cuyo nombre acabe en __z__ o __s__ (sin considerar extensión)*
 ~~~
