@@ -1,3 +1,3 @@
 # Platzi
 
-Para acceder a los apuntes de los distintos cursos se puede inresar al siguiente [índice](./Index.md)
+Para acceder a los apuntes de los distintos cursos se puede ingresar al siguiente [índice](./Index.md)
