@@ -118,3 +118,12 @@ $ cowsay "message"
 ~~~
 $ lolcat ./filename.ext
 ~~~
+
+
+---
+
+[Anterior](./Permits.md)
+
+[Siguiente](./SearchCommand.md)
+
+[Índice del curso](../Index.md)

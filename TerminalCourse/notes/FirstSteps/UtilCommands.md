@@ -183,3 +183,12 @@ touch [file 1] [file 2] ... [file n]
 ## **Combinaciones de teclas útiles en la terminal**
 - `Ctrl + L` .- Limpia la terminal al igual que el comando 'clear'
 - `Ctrl + C` .- Cancela cualquier proceso que esté ejecutando la terminal
+
+
+---
+
+[Anterior](./Concepts.md)
+
+[Siguiente](./Wildcards.md)
+
+[Índice del curso](../Index.md)

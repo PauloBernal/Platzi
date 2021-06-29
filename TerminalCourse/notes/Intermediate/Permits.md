@@ -107,3 +107,12 @@ $ su username
 ~~~
 $ passwd
 ~~~
+
+
+---
+
+[Anterior](./EnvironmentVariables.md)
+
+[Siguiente](./Redirections.md)
+
+[Índice del curso](../Index.md)

@@ -59,3 +59,11 @@ $ fg num
 ~~~
 $ bg num 
 ~~~
+
+---
+
+[Anterior](./NetUtilities.md)
+
+[Siguiente](../Advices.md)
+
+[Índice del curso](../Index.md)

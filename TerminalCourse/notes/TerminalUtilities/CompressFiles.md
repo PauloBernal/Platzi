@@ -43,3 +43,12 @@ $ unrar -flags Rar_name.rar
 
 ### Parámetros
 - `r` (recursive).- Permite comprimir de forma recursiva un directorio
+
+
+---
+
+[Anterior](../Intermediate/SearchCommand.md)
+
+[Siguiente](./EditorInTerminal.md)
+
+[Índice del curso](../Index.md)

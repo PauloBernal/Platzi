@@ -49,3 +49,11 @@ $ cal
 $ date
 ~~~
 
+
+---
+
+[Anterior](../FirstSteps/Wildcards.md)
+
+[Siguiente](./EnvironmentVariables.md)
+
+[Índice del curso](../Index.md)

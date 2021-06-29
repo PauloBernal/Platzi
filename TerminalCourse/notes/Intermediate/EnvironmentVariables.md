@@ -58,3 +58,11 @@ $ ln -flag /route/ link_name
 ~~~
 $ bash
 ~~~
+
+---
+
+[Anterior](./ControlOperators.md)
+
+[Siguiente](./Permits.md)
+
+[Índice del curso](../Index.md)

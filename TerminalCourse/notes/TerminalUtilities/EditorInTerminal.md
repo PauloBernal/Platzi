@@ -25,3 +25,11 @@ Vim tiene dos modos por defecto, el modo normal o de lectura y el modo insertar 
 - `:q`.- Sale de Vim
 - `:wq`.- Sale de Vim habiendo guardado los cambios previamente
 - `:q!`.- Sale de forma agresiva (directamente o sin guardar cambios)
+
+---
+
+[Anterior](./CompressFiles.md)
+
+[Siguiente](./NetUtilities.md)
+
+[Índice del curso](../Index.md)

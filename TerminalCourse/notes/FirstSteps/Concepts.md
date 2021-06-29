@@ -36,3 +36,9 @@ Un comando es una orden que se envía al sistema operativo para realizar una acc
 
 ## Wildcards
 Serie de caracteres especiales que permiten realizar búsquedas avanzadas. Son parecidos a los caracteres de expresiones regulares en cuanto a funcionalidad, sin embargo, estos varían en cuanto a la forma en que se representan.
+
+---
+
+[Siguiente](./UtilCommands.md)
+
+[Índice del curso](../Index.md)

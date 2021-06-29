@@ -44,3 +44,12 @@ $ grep "word_or_pattern" filename.ext
 ~~~
 $ wc filename.ext
 ~~~
+
+
+---
+
+[Anterior](./Redirections.md)
+
+[Siguiente](../TerminalUtilities/CompressFiles.md)
+
+[Índice del curso](../Index.md)

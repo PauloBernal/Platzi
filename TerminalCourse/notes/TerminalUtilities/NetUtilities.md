@@ -26,3 +26,11 @@ $ traceroute www.domain.dom
 ~~~
 $ netstat -i
 ~~~
+
+---
+
+[Anterior](./EditorInTerminal.md)
+
+[Siguiente](./ProcessManagement.md)
+
+[Índice del curso](../Index.md)

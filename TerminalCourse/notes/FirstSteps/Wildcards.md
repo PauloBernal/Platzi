@@ -59,3 +59,12 @@ Las clases hacen referencia a un conjunto de caracteres que pueden coincidir en 
 ~~~
 $ ls -d *[szSZ].*
 ~~~
+
+
+---
+
+[Anterior](./UtilCommands.md)
+
+[Siguiente](../Intermediate/ControlOperators.md)
+
+[Índice del curso](../Index.md)
