@@ -92,7 +92,7 @@ $ chmod u+w,g-x,o=r login.txt
 ~~~
 $ whoami
 ~~~
-- `chmod` (chango mode).- Este comando permite modificar los permisos y tiene dos sintaxis distintas. En la primera se hace uso de la notación octal de permisos y en la segunda se hace uso del modo simbólico y sus operadores.
+- `chmod` (change mode).- Este comando permite modificar los permisos y tiene dos sintaxis distintas. En la primera se hace uso de la notación octal de permisos y en la segunda se hace uso del modo simbólico y sus operadores.
 ~~~
 $ chmod num filename.ext
 ~~~
