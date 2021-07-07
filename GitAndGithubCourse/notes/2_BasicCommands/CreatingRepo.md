@@ -90,7 +90,40 @@ Para enviar los cambios en staging al repositorio se utiliza el comando `commit`
 ~~~
 $ git commit -m "message"
 ~~~
+Para añadir los cambios a staging y realizar un commit en una sola línea se puede hacer uso del parámetro `-a`:
+~~~
+$ git commit -am "message"
+~~~
 
+### Visualizar cambios
+
+Para ver el historial de cambios de un archivo o directorio se usa el comando `log`. Si no se coloca ningún nombre de archivo, el comando devuelve el historial de cambios del directorio actual en el repositorio
+~~~
+$ git log
+~~~
+~~~
+$ git log filename.ext
+~~~
+~~~
+$ git log dirname/
+~~~
+
+### Partes del log
+
+Eset comando se compone de varias partes:
+- commit.- De inicio especifica el ID del commit realizado, junto con la versión y la rama en la que se está trabajando.
+- Author.- Muestra quién realizó los cambios con nombre de usuario y correo electrónico
+- Date.- Muestra cuando fueron confirmados los cambios con la fecha y hora exactas del commit
+- Message.- Muestra el mensaje de descripción con el que fue realizado el commit
+
+**Salida de ejemplo**
+~~~
+commit  b32a54f20c978788dd679fec82b3e0f05e840684 (HEAD -> master)
+Author: Username <example@email.com>
+Date: Day Month Date hh:mm:ss Year -num
+
+    Este es el mesaje del commit
+~~~
 
 ## Comandos útiles
 
@@ -117,9 +150,9 @@ $ git commit -m "message"
 ~~~
 $ git status
 ~~~
-- `show`.- Muestra todos los cambios hechos dentro del repositorio con fecha de modificación y usuario que realizó la modificación
+- `config`.- Permite ver y realizar distintas configuraciones generales de git
 ~~~
-$ git show
+$ git config --flag
 ~~~
 - `log`.- Muestra el historial de cambios realizados a un archivo en específico
 ~~~
