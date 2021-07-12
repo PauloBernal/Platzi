@@ -16,3 +16,11 @@ Se puede elegir la forma de autocompletado con distintos valores para el atribut
 - `country`.- País
 - `bday`.- Día de nacimiento
 - `postal-code`.- Código postal
+
+
+## Required
+
+Este atributo indica que el input debe tener algún valor de forma obligatoria para que el formulario sea enviado. Es un atributo que no requiere valor por lo que la sintaxis va de la forma:
+~~~
+<input type="type" required>
+~~~
