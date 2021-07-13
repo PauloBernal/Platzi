@@ -4,34 +4,37 @@ Los formularios permiten interacción básica con el usuario. En muchos casos lo
 
 > "El mejor formulario es cuando no lo hay" — Usuario anónimo
 
-
 ## Etiquetas de formularios
 
 ### Etiqueta `<form>`
 
 Es una etiqueta contenedora y la indica al navegador que lo que va dentro de ella es un formulario.
-~~~
+
+~~~html
 <form></form>
 ~~~
-Esta suele ir acompañada del atributo `action` que indica la url de la base de datos a la cuál se enviarán los datos del formulario. 
+
+Esta suele ir acompañada del atributo `action` que indica la url de la base de datos a la cuál se enviarán los datos del formulario.
 
 ### Etiqueta `<label>`
 
 Es una etiqueta que hace referencia a otras etiquetas cuando se hace click sobre ella. Para colocarla se utiliza el atributo `for` y como valor la id de la etiqueta a la que hace referencia
-~~~
+
+~~~html
 <label for="id"></label>
 ~~~
 
 ### Etiqueta `<input>`
 
 Esta etiqueta permite que el usuario ingrese datos, ya sea texto, contraseñas, email, etc. Se utiliza dentro de un `<form>`. En el atributo `type` se especifica el tipo de input:
-~~~
+
+~~~html
 <input type="type" />
 ~~~
 
 La estructura general de un formulario vendrá dada por:
 
-~~~
+~~~html
 <form action="url">
     <label for="input_id">
         <input id="input_id" type="type" />
@@ -40,10 +43,10 @@ La estructura general de un formulario vendrá dada por:
 ~~~
 
 El atributo `placeholder` se utiliza para colocar un texto de ejemplo dentro del input:
-~~~
+
+~~~html
 <input type="type" placeholder="example_text" />
 ~~~
-
 
 ## Tipos de input
 

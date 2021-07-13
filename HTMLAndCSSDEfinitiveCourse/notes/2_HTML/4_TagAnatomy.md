@@ -12,13 +12,14 @@ Una etiqueta cerrada posee distintas secciones:
     - Valor del atributo.- Es el valor que modifica la propiedad o el comportamiento de la etiqueta
 
 ***Plantilla***
-~~~
+
+~~~html
 <tag name="value" >Content</tag>
 ~~~
 
 ***Ejemplo*** Identificar las partes de una etiqueta de ancla `<a>`:
 
-~~~
+~~~html
 <a href="mywebsite.com" > link </a>
 ~~~
 
@@ -27,7 +28,6 @@ Una etiqueta cerrada posee distintas secciones:
 - `link`: Contenido
 - `href`: Nombre del atributo
 - `mywebsite.com`: Valor del atributo
-
 
 ## Etiquetas abiertas
 
@@ -39,13 +39,14 @@ Las etiquetas abiertas poseen partes similares a las etiquetas cerradas:
     - Valor del atributo.- Es el valor que modifica la propiedad o el comportamiento de la etiqueta
 
 ***Plantilla***
-~~~
+
+~~~html
 <tag name="value" />
 ~~~
 
 ***Ejemplo*** Identificar las partes de una etiqueta de imagen `<img>`:
 
-~~~
+~~~html
 <img src="./img.png" />
 ~~~
 

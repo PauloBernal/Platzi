@@ -12,7 +12,6 @@ Estos formatos capturan todos los datos del archivo original. A pesar de comprim
 
 Los formatos de imagen con pérdida se aproximan a la imagen original. Estos reducen el tamaño del archivo eliminando datos innecesarios o reduciendo la gama de colores en estos y por lo tanto llegando a reducir la calidad del archivo. Sin embargo esto puede ayudar a evitar largos tiempos de carga y mejorar la experiencia del usuario.
 
-
 ## Formatos
 
 - GIF (Graphics Interchange Format).- Es un formato Lossless, es decir que el formato está tan reducido en la gama de colores que no se puede reducir más la calidad de este.

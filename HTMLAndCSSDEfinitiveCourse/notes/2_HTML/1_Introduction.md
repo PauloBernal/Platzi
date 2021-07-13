@@ -2,14 +2,7 @@
 
 HTML significa en español lenguaje de marcado de hipertexto, por lo que es solamente una forma de organizar y desplegar componentes con texto. La primera página web fue un sitio en blanco con unos cuantos enlaces (hipervínculos), lo que representa en sí la esencia de HTML en un inicio.
 
-
 ## Anatomía de una página web
-
-<br/>
-
-![Landing](../../img/landing.png)
-
-<br/>
 
 Una página web si bien puede ser como uno desee, suele tener etiquetas para secciones en específico. Entre estas etiquetas o secciones cuyo uso quedó estandarizado a partir de HTML 5 están:
 
