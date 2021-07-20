@@ -1,0 +1,3 @@
+# Lighthouse
+
+Es una de las mejores herramientas para probar un sitio web en temas de accesibilidad, SEO, buenas prácticas, etc. Este herramienta ya está incluída en Chrome DevTools por lo que es fácil probar cualquier sitio web con esta herramienta. Al generar el reporte indica como mejorar el sitio web lo que nos ayuda como desarrolladores a mejorar el sitio web en muchos aspectos como accesibilidad y experiencia.

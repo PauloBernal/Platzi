@@ -1,0 +1,27 @@
+@media screen and (min-width: 600px) {
+    .main-container {
+      padding: 50px 0;
+    }
+  
+    .main-image-container {
+      border-radius: 20px 20px 0 0;
+    }
+  
+    .main-plans-section {
+      border-radius: 0 0 20px 20px;
+    }
+  
+    .main-plan {
+      min-width: 100px;
+      width: 100px;
+      max-width: 200px;
+    }
+    .main-plan.plan2 {
+      min-width: 400px;
+      width: 400px;
+      max-width: 500px;
+    }
+    .main-plan-button {
+      font-size: 1.3rem;
+    }
+  }

@@ -607,64 +607,23 @@ body::-webkit-scrollbar, .main-plans-container::-webkit-scrollbar {
   display: none;
 }
 
-
-
-@media screen and (min-width: 600px) {
-  .main-plan {
-    min-width: 100px;
-    width: 100px;
-    max-width: 200px;
-  }
-  .main-plan.plan2 {
-    min-width: 400px;
-    width: 400px;
-    max-width: 500px;
-  }
-  .main-plan-button {
-    font-size: 1.3rem;
-  }
+.footer {
+  display: flex;
+  background-color: var(--bitcoin-orange);
+  height: 150px;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
-@media screen and (min-width: 800px) {
+.footer-links-container {
+  display: flex;
+  flex-direction: column;
+}
 
-  .main-product-card {
-    min-width: 300px;
-    width: 45%;
-  }
-
-  .main-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-    height: fit-content;
-    width: 100%;
-    padding: 50px;
-    overflow-x: hidden;
-  }
-
-  .main-image-section {
-    min-width: 300px;
-    width: 30%;
-    max-width: 400px;
-    max-height: 500px;
-  }
-
-  .main-image-container {
-    height: 500px;
-    border-radius: 20px 0 0 20px;
-  }
-
-  .main-plans-section {
-    min-width: 300px;
-    width: 40%;
-    flex-grow: 1;
-    margin: 0;
-    height: 500px;
-    border-radius: 0 20px 20px 0;
-  }
-
-  .main-plans-section .main-plans-title {
-    font-size: 1.8rem;
-  }
+.footer-link {
+  display: block;
+  color: var(--off-white);
+  text-decoration: none;
+  font-size: 1.4rem;
+  padding: 5px;
 }
