@@ -1,0 +1,3 @@
+# Arquitecura inicial
+
+Muchas veces en un proyecto grande se divide el trabajo entre diseñadores y desarrolladores. Páginas como [Figma](https://www.figma.com) ayudan a mejorar el flujo de trabajo entre la parte de diseño y desarrollo. Una de las cosas más importantes al momento de pasar de un diseño al proyecto en sí es identificar la estructura principal del sitio o aplicación. En el caso de sitios o aplicaciones web elementos que csi siempre están presentes son el `<header>` o cabecera, `<main>` o contenido principal y `<footer>` o pie de página. También se debe identificar todas las secciones que forman parte del contenido principal para realizar el layout.
