@@ -1,0 +1,23 @@
+section.login 
+  section.login__container 
+    h2 Inicia Sesión 
+    form.login__container--form(action="") 
+      input.input(type="text", name="", placeholder="Correo")
+      input.input(type="password" placeholder="Contraseña")
+      button.button Iniciar sesión 
+      .login__container--remember 
+        label(for="remember")
+          | Recuerdame
+          input(type="checkbox" id="remember" value="checkbox")
+        a(href="/") Olvidé mi contraseña
+    section.login__container--social-media 
+      .session-google
+        i.fab.fa-google
+        span Iniciar sesión con Google
+      .session-twitter
+        i.fab.fa-twitter
+        span Iniciar sesión con Twitter
+    p.login__container--register ¿No tienes una cuenta?
+      a(href="/") Regístrate
+
+          

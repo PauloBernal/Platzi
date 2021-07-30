@@ -1,0 +1,17 @@
+header.header 
+      figure.header__logo: img(src="https://raw.githubusercontent.com/platzi/PlatziVideo/feature/react/src/assets/static/logo-platzi-video-BW2.png" alt="Platzi Video Logo")
+
+      if auth
+        .header__menu 
+          .header__menu--profile 
+            img(src="https://img.icons8.com/cotton/64/000000/user-male--v4.png")
+            p Perfil
+
+          ul.header__menu--list
+            li
+              a(href=route) Cuenta
+            li
+              a(href="/") Cerrar Sesión
+      else 
+        .header__home
+          a(href="/") Home

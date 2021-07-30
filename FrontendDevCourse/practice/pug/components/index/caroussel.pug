@@ -1,0 +1,14 @@
+-var images = ["6678106/pexels-photo-6678106.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500", "7722958/pexels-photo-7722958.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500", "7084360/pexels-photo-7084360.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500", "5191371/pexels-photo-5191371.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500", "3098976/pexels-photo-3098976.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500", "2765869/pexels-photo-2765869.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500", "1151831/pexels-photo-1151831.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500", "5028848/pexels-photo-5028848.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500", "3801990/pexels-photo-3801990.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500", "3773655/pexels-photo-3773655.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"] 
+
+section.caroussel 
+  .caroussel__container
+    each image in images
+      .caroussel-item 
+        img.caroussel-item__img(src="https://images.pexels.com/photos/"+image alt=image)
+        .caroussel-item__details
+          .caroussel-item__details--buttons
+            img(src="https://img.icons8.com/ios-glyphs/30/000000/circled-play.png" alt="")
+            img(src="https://img.icons8.com/ios-glyphs/120/000000/plus.png" alt="")
+          p.caroussel-item__details--title Título descriptivo
+          p.caroussel-item__details--subtitle 2019 16+ 114 minutos
+        
