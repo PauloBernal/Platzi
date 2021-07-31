@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Muli&amp;display=swap" rel="stylesheet">
-    <title>Log in</title>
+    <title>Register</title>
   </head>
   <body> 
     <header class="header"> 
@@ -19,22 +19,14 @@
     <main>
       <section class="login"> 
         <section class="login__container"> 
-          <h2>Inicia Sesión </h2>
+          <h2>Regístrate</h2>
           <form class="login__container--form" action=""> 
-            <input class="input" type="text" name="" placeholder="Correo">
+            <input class="input" type="text" name="" placeholder="Nombre">
+            <input class="input" type="email" name="" placeholder="Correo">
             <input class="input" type="password" placeholder="Contraseña">
-            <button class="button">Iniciar sesión </button>
-            <div class="login__container--remember"> 
-              <label for="remember">
-                <input class="check" type="checkbox" id="remember" value="checkbox">Recuerdame 
-              </label><a href="/">Olvidé mi contraseña</a>
-            </div>
+            <button class="button">Registrarse</button>
           </form>
-          <section class="login__container--social-media"> 
-            <div class="session google"><i class="fab fa-google"></i><span>Iniciar sesión con Google</span></div>
-            <div class="session twitter"><i class="fab fa-twitter"></i><span>Iniciar sesión con Twitter</span></div>
-          </section>
-          <p class="login__container--register">¿No tienes una cuenta?<a href="/html/register.html">Regístrate </a></p>
+          <p class="login__container--register">¿Ya tienes una cuenta?<a href="/html/login.html">Iniciar sesión</a></p>
         </section>
       </section>
     </main>

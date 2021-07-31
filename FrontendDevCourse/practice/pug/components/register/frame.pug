@@ -1,0 +1,22 @@
+section.login 
+  section.login__container 
+    h2 Regístrate
+    form.login__container--form(action="") 
+      input.input(type="text", name="", placeholder="Nombre")
+      input.input(type="email", name="", placeholder="Correo")
+      input.input(type="password" placeholder="Contraseña")
+      button.button Registrarse
+      //- .login__container--remember 
+      //-   label(for="remember")
+      //-     input.check(type="checkbox" id="remember" value="checkbox")
+      //-     | Recuerdame 
+      //-   a(href="/") Olvidé mi contraseña
+    //- section.login__container--social-media 
+    //-   .session.google
+    //-     i.fab.fa-google
+    //-     span Iniciar sesión con Google
+    //-   .session.twitter
+    //-     i.fab.fa-twitter
+    //-     span Iniciar sesión con Twitter
+    p.login__container--register ¿Ya tienes una cuenta?
+      a(href="/html/login.html") Iniciar sesión

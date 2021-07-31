@@ -1,0 +1,228 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  background: #21C08B;
+  font-family: "Muli", sans-serif;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+::-webkit-input-placeholder {
+  color: #EDEDED;
+}
+
+::-moz-placeholder {
+  color: #EDEDED;
+}
+
+:-ms-input-placeholder {
+  color: #EDEDED;
+}
+
+::-ms-input-placeholder {
+  color: #EDEDED;
+}
+
+::placeholder {
+  color: #EDEDED;
+}
+
+.header {
+  background: rgba(0, 0, 0, 0);
+  width: 100%;
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.header__logo {
+  width: 200px;
+  display: block;
+}
+.header__logo img {
+  display: block;
+  width: inherit;
+  height: inherit;
+  margin: 15px;
+}
+.header__home a {
+  display: block;
+  padding: 5px 20px;
+  background: rgba(0, 0, 0, 0.1);
+  margin: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #EDEDED;
+  border: 3px solid #EDEDED;
+  border-radius: 10px;
+}
+.header__home a:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100px;
+  height: auto;
+  width: 100%;
+  background-color: #8F57FD;
+  padding-top: 30px;
+}
+.footer__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  list-style: none;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.footer__container a {
+  color: #EDEDED;
+  text-decoration: none;
+  font-size: 1.4rem;
+  padding: 30px;
+  display: inline-block;
+}
+.footer__container a:hover {
+  text-decoration: underline;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.25);
+            transform: scale(1.25);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.25);
+            transform: scale(1.25);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+body {
+  background: -webkit-gradient(linear, left top, left bottom, from(#21C08B), to(#AB88FF));
+  background: linear-gradient(#21C08B 0%, #AB88FF 100%);
+}
+
+.not-found {
+  min-height: 250px;
+}
+.not-found__container {
+  width: 100%;
+  color: white;
+  height: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 130px;
+}
+.not-found__container h1 {
+  font-size: 9rem;
+  -webkit-animation-name: pulse;
+          animation-name: pulse;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+.not-found__text {
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.footer {
+  background-color: transparent;
+  position: absolute;
+  bottom: 0;
+  color: #FFF;
+}
+
+@media only screen and (max-width: 600px) {
+  .header__logo {
+    width: 150px;
+  }
+
+  .login__container {
+    background-color: transparent;
+    border: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    padding: 20px;
+    width: 100%;
+    min-width: 320px;
+  }
+  .login__container h2 {
+    text-align: center;
+  }
+
+  .footer {
+    min-widht: 320px;
+  }
+  .footer__container {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 10px;
+  }
+  .footer__container a {
+    padding: 15px 20px;
+  }
+}

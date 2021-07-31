@@ -1,0 +1,115 @@
+.login
+  background: linear-gradient($color-4 0%, $color-3 70%)
+  display: flex
+  align-items: center
+  justify-content: center
+  flex-direction: column
+  padding: 60px 30px
+  min-height: calc(100vh - 200px)
+
+  &__container
+    background-color: rgba(#FFF, .1)
+    border: 2px solid #FFFFFF
+    border-radius: 40px
+    color: #FFFFFF
+    padding: 60px 68px 40px
+    min-height: 700px
+    width: 436px
+    display: flex
+    justify-content: space-around
+    flex-direction: column
+    box-shadow: 4px 3px 10px 5px rgba(#000, .3)
+
+    h2
+      margin-bottom: 10px
+      font-size: 2.5rem
+
+    &--form
+      display: flex
+      flex-direction: column
+
+      label
+        font-size: 1.4rem
+        display: flex
+        align-items: center
+
+        .check
+          margin-right: 8px
+
+    &--remember
+      display: flex
+      justify-content: space-between
+      color: #FFFFFF
+      margin: 10px 0
+      align-items: center
+      line-height: 2rem
+
+      a
+        color: #FFFFFF
+        font-size: 1.4rem
+        text-decoration: none
+
+        &:hover
+          text-decoration: underline
+
+    &--social-media
+      .session
+        display: flex
+        align-items: center
+        width: 90%
+        font-size: 1.4rem
+        margin: 15px auto
+        border: 2px solid #fff
+        border-radius: 20px
+        cursor: pointer
+        padding: 10px 20px
+
+        &:hover
+          background-color: rgba(#FFF, .1)
+
+        i
+          display: inline-block
+          width: 30px
+          font-size: 2rem
+          margin-right: 10px
+          text-align: center
+
+    &--register
+      font-size: 1.4rem
+      text-align: center
+
+      a
+        font-size: 1.5rem
+        color: #EDEDED
+        font-weight: bold
+        text-decoration: none
+        margin-left: 5px
+        &:hover
+          text-decoration: underline
+          color: #FFFFFF
+
+.input
+  background: transparent
+  border: none
+  border-bottom: 2px solid #FFF
+  font-family: 'Muli', sans-serif
+  font-size: 1.6rem
+  padding: 0 15px
+  margin: 10px 0
+  outline: none
+  height: 50px
+  color: #FFF
+
+.button
+  background-color: rgba(#FFF, 0.2)
+  color: #fff
+  border: none
+  outline: none
+  border-radius: 25px
+  cursor: pointer
+  font-family: 'Muli', sans-serif
+  font-size: 16px
+  font-weight: bold
+  height: 50px
+  letter-spacing: 1px
+  margin: 30px 0

@@ -40,7 +40,7 @@ body {
 }
 
 .header {
-  background-color: #8F57FD;
+  background: rgba(0, 0, 0, 0);
   width: 100%;
   height: 80px;
   display: -webkit-box;
@@ -52,6 +52,8 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 .header__logo {
   width: 200px;
@@ -122,6 +124,11 @@ body {
   text-decoration: underline;
 }
 
+body {
+  background: -webkit-gradient(linear, left top, left bottom, from(#21C08B), color-stop(#AB88FF), to(#8F57FD));
+  background: linear-gradient(#21C08B, #AB88FF, #8F57FD);
+}
+
 .main {
   height: 250px;
   display: -webkit-box;
@@ -158,7 +165,7 @@ body {
 }
 
 .caroussel {
-  width: 100%;
+  width: 100vw;
   overflow-x: scroll;
   padding: 40px;
   position: relative;
@@ -185,6 +192,7 @@ body {
   white-space: nowrap;
   margin: 40px 0;
   padding-bottom: 10px;
+  width: 100%;
 }
 .caroussel-item {
   display: inline-block;
@@ -277,4 +285,63 @@ body {
   -webkit-transform: scale(1.5);
           transform: scale(1.5);
   opacity: 1;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100px;
+  height: auto;
+  width: 100%;
+  background-color: #8F57FD;
+  padding-top: 30px;
+}
+.footer__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  list-style: none;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.footer__container a {
+  color: #EDEDED;
+  text-decoration: none;
+  font-size: 1.4rem;
+  padding: 30px;
+  display: inline-block;
+}
+.footer__container a:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+  .header__logo {
+    width: 150px;
+  }
+  .header__menu--profile {
+    width: 100px;
+  }
+
+  .footer {
+    min-widht: 320px;
+  }
+  .footer__container {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 10px;
+  }
+  .footer__container a {
+    padding: 15px 20px;
+  }
 }
