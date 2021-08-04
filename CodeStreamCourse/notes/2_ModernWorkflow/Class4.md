@@ -3,6 +3,7 @@
 ## ¿Por qué integrar github en el editor?
 
 ### Beneficios (1)
+
 - Eliminación del cambio de contexto
 - Checkout a un branch con un solo click
 - Ejecutar una compliación durante la revisión
@@ -10,10 +11,10 @@
 - Atajos de teclado, temas y personalizaciónes preferidos
 
 ### Beneficios (2)
+
 - La herramienta 'diff' nativa en el editor
 - El contexto completo en el repositorio
 - Agregar comentarios en cualquier parte del repositorio relacionados con cualquier revisión de código
-
 
 ## Navegación
 
@@ -22,13 +23,14 @@
 - Pull requests
 - Feedback requests
 - Issues
-- CodeMarks 
+- CodeMarks
 - My Team
 - Work in progress
 
 ### Controles
 
 Para acceder a CodeStream se puede hacer click en el ícono que aparece en el sidebar. Hay unos cuántos íconos más en la parte superior del panel de CodeStream:
+
 - Más (+).- Aparecen cuatro funciones las cuáles son crear comentarios, crear Issues, solicitar feedback y abrir un nuevo pull request.
 
 #### Pull Requests
@@ -38,9 +40,18 @@ En el panel de codestream se puede ver los Pull requests con distintos filtros. 
 ## Eficiencia del PR en el editor
 
 Desde el panel de Codestream es posible:
+
 - Agregar comentarios
 - Crear Issues en Jira
 - Crear un Feedback Request
 - Crear un Pull Request
 - Comentar sobre cualquier línea de código
 - Eliminar la ineficiencia administrativa
+
+---
+
+[Anterior](Class3.md)
+
+[Siguiente](./FeedBackRequest.md)
+
+[Índice](../Intro.md)

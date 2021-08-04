@@ -9,7 +9,6 @@
 - Permite pedir feedback (comentarios y sugerencias acerca del código)
 - Es mucho más fácil de revisar
 
-
 ### Principios de colaboración *Shift Left*
 
 1. Antes mejor que después
@@ -40,15 +39,18 @@ Es una versión más ágil de un Pull Request mucho más eficiente
 ## Integración de proyectos/tareas en VSCode
 
 ### Beneficios
+
 - Incluye funcionalidad completa
 - Tres propósitos: automatización, uniformidad, comunicación
 - Permite integrar más de una aplicación en la misma lista de tareas (Trello, Jira, Github Issues)
 
 ***Ejemplo 3*** *Asignar un ticket*
+
 - Sin integración: 7 pasos
 - Con integración: 2 pasos
 
 #### Sin integración
+
 1. Navegar hasta Atlassian y elegir Jira
 2. Aplicar filtro a los tickets para encontrar el deseado
 3. Mover el ticket a "In Progress"
@@ -58,6 +60,7 @@ Es una versión más ágil de un Pull Request mucho más eficiente
 7. Cuando se termina la revisión mover el ticket a "Terminado"
 
 #### Con integración
+
 1. Seleccionar un ticket del editor
 2. Un solo click para crear un branch, mover el ticket a "In Progress" y actualizar el estado en Slack
 
@@ -73,10 +76,18 @@ Es una versión más ágil de un Pull Request mucho más eficiente
     5. Crear un branch en el repositorio
     6. Actualización del estado en Slack
 
-#### Ventajas de tener un Issue TRacker integrado
+#### Ventajas de tener un Issue Tracker integrado
 
 - Agregar ticket mientras se escribe o revisa código
 - Conectar el ticket directamente al código
 - Notificar a la persona indicada que hay un ticket y dirigirlo al lugar correcto
 - No tener que cambiar la aplicación o contexto
 - Crear un registro de los tickets asociados al código mismo
+
+---
+
+[Anterior](Class4.md)
+
+[Siguiente](./Class6.md)
+
+[Índice](../Intro.md)

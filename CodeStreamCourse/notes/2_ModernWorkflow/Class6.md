@@ -18,6 +18,7 @@ En este punto la evolución del flujo pasa a ser la Discusión informal también
 - con integración: 2 pasos
 
 ### Sin integración
+
 1. Seleccionar bloque de código
 2. Copiar
 3. Alt-tab a Slack
@@ -38,9 +39,9 @@ En este punto la evolución del flujo pasa a ser la Discusión informal también
 18. Alt-tab de vuelta al editor
 
 ### Con integración
+
 1. Seleccionar el bloque de código
 2. Hacer la pregunta
-
 
 ## Code Chat
 
@@ -48,7 +49,7 @@ En este punto la evolución del flujo pasa a ser la Discusión informal también
 - Detecta cambios y diferencias en distintas versiones del mismo bloque
 - Contiene la meta-información para evolucionar con el código
 - Se integra con Slack, Pull Requests, Jira
-- Se transforma en documentación 
+- Se transforma en documentación
 
 ### Propósito del Code Chat
 
@@ -88,3 +89,11 @@ Es como ver un Google Docs, a la derecha se tiene el contenido y a la derecha el
 - Se integra con los sistemas de comunicación existentes
 - Se adecúa a la evolución y las diferencias del código
 - Se utiliza en cuqluier parte del repositorio
+
+---
+
+[Anterior](./FeedBackRequest.md)
+
+[Siguiente](./PracticeII.md)
+
+[Índice](../Intro.md)

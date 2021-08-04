@@ -1,6 +1,6 @@
 # Introducción
 
-EL CV (Currículum Vitae u Hoja de Vida) y el portafolio son dos herramientas que comunican la capacidad de ofrecer talento y las habilidades de aportar valor de forma constante en un lugar de trabajo. Al momento de postular a un puesto de trabajo lo recomendable es tener un portafolio y un CV debido a que se complementan. Si solamente se presenta uno hay un problema, el CV por sí solo no da evidencia de las habilidades y el portafolio no contiene los elementos personales para decir si uno está capacitado para el puesto o no. Depende del reclutador la importancia que se le da a uno u otro por lo que ambos deben estar listos al mismo tiempo al momento de postular.
+EL CV (Currículum Vitae) y el portafolio son dos herramientas que comunican la capacidad de ofrecer talento y las habilidades de aportar valor de forma constante en un lugar de trabajo. Al momento de postular a un puesto de trabajo lo recomendable es tener un portafolio y un CV debido a que se complementan. Si solamente se presenta uno hay un problema, el CV por sí solo no da evidencia de las habilidades y el portafolio no contiene los elementos personales para decir si uno está capacitado para el puesto o no. Depende del reclutador la importancia que se le da a uno u otro por lo que ambos deben estar listos al mismo tiempo al momento de postular.
 
 ## Currículum Vitae (CV)
 
