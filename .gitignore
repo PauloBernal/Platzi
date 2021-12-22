@@ -2,3 +2,6 @@ token.txt
 *.png
 *.jpg
 icons/
+assets/
+fonts/
+font/

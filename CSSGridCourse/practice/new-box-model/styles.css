@@ -1,0 +1,26 @@
+.box {
+  width: 80%;
+  height: 200px;
+  background-color: #AAAAAA;
+  margin: auto;
+}
+
+.container {
+  min-inline-size: 200px;
+  inline-size: 80%;
+  margin: auto;
+  margin-top: 10px;
+  max-block-size: 700px;
+  overflow-y: scroll;
+}
+
+.new-box {
+  inline-size: 100%;
+  block-size: 200px;
+  background-color: #777777;
+  margin: auto;
+  margin-inline-end: 10px;
+  margin-block-end: 10px;
+  writing-mode: vertical-lr;
+  display: inline-block;
+}

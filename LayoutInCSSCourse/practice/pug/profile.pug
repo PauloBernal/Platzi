@@ -1,0 +1,26 @@
+-var title = "My Profile"
+-var styles = "profile.css"
+
+doctype html
+html(lang="en")
+  include ./components/head.pug
+  body
+    include ./components/header.pug
+    main.profile 
+      section.profile-hero 
+        .profile-hero-img 
+          img(src="https://i.imgur.com/grvJXSq.png", alt="")
+        .profile-hero-info 
+          h2 Mi Perfil
+          p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum culpa ea soluta nulla obcaecati cumque quasi necessitatibus commodi. Vero odio quam quidem voluptas provident aspernatur repellat vel, iusto reiciendis praesentium.
+      section.profile-projects 
+        h3 Proyectos
+        .profile-projects-container  
+          each num in [1, 2, 3, 4, 5, 6]
+            .profile-project
+              article.profile-project-content
+                h4 Nombre del proyecto #{num}
+                p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem itaque alias voluptas adipisci nesciunt molestiae asperiores quas eveniet perferendis vitae. Molestias molestiae eligendi tempore temporibus explicabo recusandae cupiditate soluta quae!
+                button Leer más
+      include ./components/contact.pug
+    include ./components/footer.pug

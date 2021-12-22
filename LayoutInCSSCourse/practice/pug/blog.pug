@@ -1,0 +1,24 @@
+-var title = "Blog"
+-var styles = "blog.css"
+
+doctype html
+html(lang="en")
+  include ./components/head.pug
+  body
+    include ./components/header.pug
+    main.blog 
+      section.blog-img.grid-container
+        img(src="/assets/img/main-news-img.png", alt="Main img")
+      section.blog-content 
+        .blog-content-container.grid-container
+          h3 Noticias
+          article.blog-content-article 
+            h1 Título del blog
+            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum veritatis architecto sed dolorem nisi reprehenderit error unde est, fugit quibusdam. Dignissimos fuga sapiente facilis officia illo quidem obcaecati pariatur doloribus.Ratione amet aliquid, facilis id quisquam ex necessitatibus. Commodi nulla ex, nam nesciunt praesentium et suscipit voluptates maxime asperiores culpa est id nihil soluta consectetur totam a consequuntur iure ut.
+            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, laudantium. Culpa omnis, iure, voluptatibus eveniet delectus quo natus, hic minima explicabo illum sunt. Consectetur voluptatibus quia nobis incidunt tenetur quos deleniti rem eum. Nulla ratione iste, consequuntur ipsa hic reprehenderit!
+            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, quo rem voluptatum veritatis nihil expedita architecto unde in. Atque neque similique laudantium quisquam in autem eum odio necessitatibus, fugiat recusandae.Impedit placeat error labore ea commodi provident id perspiciatis laborum beatae corporis excepturi quod nulla enim a vel porro dolore vero, eum voluptatum illum. Perferendis iusto quo non iure quia?Quo cum ea consequuntur hic ut dolorem saepe. Molestias sit, laboriosam a et animi eius ipsam esse pariatur! Possimus tempore nesciunt neque quam! Adipisci cupiditate corporis mollitia deserunt laborum accusamus!
+            p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis harum, repellat id autem totam accusantium molestiae velit odit nulla animi sunt explicabo rem nobis libero, nam voluptatibus illo quas. Repellat!
+      include ./components/contact.pug
+
+
+    include ./components/footer.pug
