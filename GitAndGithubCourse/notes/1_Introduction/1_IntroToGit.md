@@ -15,7 +15,6 @@ Git es un sistema de control de versiones, lo cual permite que en un proyecto gr
 
 Son sistemas que permiten llevar un registro de un proyecto grande a lo largo del tiempo. Estos sistemas registran los cambios y sus datos como fecha en la que se realizó, quién realizó el cambio, etc. y permite volver a un momento en específico del proyecto. El sistema de control de versiones más popular es Git, el cuál fue creado por Linus Torvalds (creador de Linux). Git solamente registra los cambios para no estar registrando todo el archivo cada que se actualiza o se borra algo en él.
 
-
 ## Empezando en Git
 
 ### Iniciar un repositorio
@@ -30,10 +29,8 @@ Una vez que se crea o se modifica un archivo dentro del directorio es necesario 
 
 Para confirmar los cambios realizados en el repositorio se hace uso del comando `commit`. Antes de confirmar es necesario escribir un mensaje de confirmación que será útil para reconocer que cambios se están haciendo.
 
-
 ---
 
-[Siguiente](./InstallingGit_GitBash.md)
+[Siguiente](./2_InstallingGit_GitBash.md)
 
 [Índice del curso](../Index.md)
-

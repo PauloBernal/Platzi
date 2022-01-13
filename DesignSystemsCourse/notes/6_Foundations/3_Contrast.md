@@ -1,0 +1,3 @@
+# Como evitar colores contrastantes
+
+Los colores opuestos generan contrastes altos, es decir, en casos prácticos el usuario ve el contraste demasiado marcado entre un elemento y otro, lo que hace que no se vea tan bien cuando dos elementos contrastantes están uno al lado del otro (como blanco puro o negro puro). Para estos casos lo recomendable es utilizar colores que tengan una inclinación hacia otra tonalidad. Por defecto se utiliza #000000 como negro para sitios web, pero para disminuir el efecto de contraste se puede utilizar una inclinación hacia el color de fondo (Si el color de fondo es rojo se puede utilizar un #110000, si es verde un #001100, si es azul un #000011).

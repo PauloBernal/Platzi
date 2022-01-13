@@ -1,14 +1,17 @@
 # El editor de texto moderno
 
 ## El editor de texto como Eje (Hub)
+
 - Se usa en todo el desarrollo el editor de texto
 - Se utilizan otras herramientas que no forman parte del editor (GitHub, JIRA, Slack, Email, etc)
 - Cambios de contexto o entorno de trabajo reducen la productividad
 
 Se pueden implementar en el editor de texto moderno tres herramientas importantes en el flujo de trabajo para aumentar la productividad:
+
 - GitHub
 - JIRA
-- Slack 
+- Slack
+
 Así se evita el problema de el cambio de contexto al momento de trabajar. La idea esencial aquí es mejorar la productividad al momento de trabajar eliminando pasos innecesarios y manteniendo un mismo entorno de trabajo.
 
 ## Integración de herramientas
@@ -21,6 +24,7 @@ Sin integración una sola tarea puede requerir de más pasos para ser llevada a 
 - Con integración: 6 pasos
 
 ### Sin integración
+
 1. Escribir código
 2. Alt-tab a terminal
 3. `git status`
@@ -43,6 +47,7 @@ Sin integración una sola tarea puede requerir de más pasos para ser llevada a 
 20. @mention al revisor para avisar que se está esperando
 
 ### Con integración
+
 1. Hacer click en el ticket para generar una rama y empezar a trabajar
 2. Escribir el código
 3. Realizar revisión, agregar commmit a cada archivo en el panel SCM del editor
@@ -55,7 +60,8 @@ Sin integración una sola tarea puede requerir de más pasos para ser llevada a 
 - Sin integración: 14 pasos
 - Con integración: 4 pasos
 
-### Sin integración
+### Sin integrar
+
 1. Recibir notificación
 2. Click para cargar PR e github.com
 3. Examinar el review, darse cuenta que se tiene que mirar el código en contexto para entender los cambios
@@ -71,12 +77,12 @@ Sin integración una sola tarea puede requerir de más pasos para ser llevada a 
 13. Alt-tab a Slack
 14. @mention al autor para avisarle que se finalizó con la revisión
 
-### Con integración
+### Integrando
+
 1. Recibir notificación en el editor
 2. Click para hacer un pull y checkout a la rama
 3. Realizar la revisión de código en contexto y comentar en cualquier parte sin restricciones
 4. Terminar la revisión
-
 
 ## Beneficios de la integración de las herramientas en el editor
 
@@ -87,11 +93,19 @@ Sin integración una sola tarea puede requerir de más pasos para ser llevada a 
 - Se mejora la comunicación
 - No se debe cambiar de herramientas ni de contexto
 
-
 ## Evolución del flujo
 
 ### El camino hacia Shift Left
+
 - Pull Request (personal)
 - Feedback Request (equipo)
 - Discusión informal (equipo)
 - Documentación (organización)
+
+---
+
+[Anterior](Class1.md)
+
+[Siguiente](./PracticeI.md)
+
+[Índice](../Intro.md)

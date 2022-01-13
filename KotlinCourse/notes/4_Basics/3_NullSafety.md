@@ -1,0 +1,3 @@
+# Null Safety en Kotlin
+
+El `null` es un tipo de valor que obtiene una variable cuando no se le asigna un valor después de ser declarada (es decir, el contenido de la variable no existe). Es debido a esto que el tipo booleano puede tener tres valores: `true`, `false` y `null`, lo cuál genera bastantes conflictos a la hora de programar, sobretodo con Java. El origen del null se remonta a 1965, creado por Sir Tony Hoare, el cuál en una charla en 2009 confesó que fue un error haber creado el `null` debido a que solamente es una solución rápida que no tuvo una buena evolución. Es por esto que Kotlin nos brinda herramientas para detectar cuando una variable es nula y el compilador nos advierte de la posible falla que puede haber en el programa debido a una referencia nula.

@@ -6,4 +6,9 @@
 4. Los environments y los lenguajes de programación se volverán más especializados
 5. Las barreras entre el desarrollo local, el desarrollo cloud, el desarrollo en pares y el desarrollo en equipo irán desapareciendo
 6. El desarrollo de software será más colaborativo y transparente. AI será el copiloto
-7. 
+
+---
+
+[Anterior](../3_ComunicationInEditor/DocumentationPractice.md)
+
+[Índice](../Intro.md)

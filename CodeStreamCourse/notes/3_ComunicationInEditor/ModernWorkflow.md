@@ -1,4 +1,4 @@
-# El flujo de trabajo moderno
+# El flujo de trabajo moderno y la documentación
 
 ## El problema de la documentación tradicional
 
@@ -6,7 +6,6 @@
 - Menos del 20% de los desarrolladores usan la documentación interna para resolver preguntas
 - Al empezar un trabajo nuevo los desarrolladores pasan el 75% del tiempo estudiando el código
 - Nadie sabe de antemano que pregunta tendrá el otro
-
 
 ## La documentación es parte del flujo moderno
 
@@ -16,38 +15,35 @@
 - Al integrar el codeChat se manteine el contexto y el contenido en el código
 - El capturar y preservar el conocimiento es parte del activo (asset) de la organización
 
-
 ## Que debe capturarse
 
 - Todas las actividades relacionadas con la base de código de la organización:
-    - Comentarios
-    - Mensajes
-    - Issues
-    - Errores en producción
-    - Sugerencias
-    - Diagramas
-    - Frecuencia de colaboración
+  - Comentarios
+  - Mensajes
+  - Issues
+  - Errores en producción
+  - Sugerencias
+  - Diagramas
+  - Frecuencia de colaboración
 - Todos los metadatos relacionados con el código
-
 
 ## Donde debe vivir la documentación
 
 - Con el código mismo
-    - Utilidad
-    - Conectividad
-    - Accesibilidad
-    - Interactividad
-- Debe ser exportable a otros formatos
-    - Sistemas de documentación
-    - Sistemas analíticos
+  - Utilidad
+  - Conectividad
+  - Accesibilidad
+  - Interactividad
 
+- Debe ser exportable a otros formatos
+  - Sistemas de documentación
+  - Sistemas analíticos
 
 ## Documentación On Demand
 
 1. En lugar de pensar qué documentar, fomentar las preguntas
 2. En lugar de esperar al Pull Request, fomentar las sugerencias
 3. En lugar de armar documentos de inducción (onboarding), dejar que el nuevo desarrollador explique lo que necesita
-
 
 ## Menú de CodeMarks
 
@@ -60,3 +56,11 @@
 - Se puede agregar bloques de código a un mismo CodeMark
 - Se puede agregar Tags para agrupar CodeMarks y filtrarlos
 - Se puede filtrar y buscar CodeMarks
+
+---
+
+[Anterior](./RemoteWork.md)
+
+[Siguiente](./DocumentationPractice.md)
+
+[Índice](../Intro.md)

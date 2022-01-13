@@ -1,0 +1,12 @@
+-var title = "Mi Blog"
+-var styles = "main.css"
+
+doctype html
+html(lang="en")
+  include ./components/head.pug
+  body 
+    include ./components/header.pug
+    main.home-main 
+      section.home-main-container
+        h1.home-main__title Conoce las novedades y noticias del mundo tech
+        button.home-main__button: a(href="/") Entra ya

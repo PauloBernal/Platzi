@@ -1,0 +1,81 @@
+.blogs
+  display: grid
+  width: 100%
+  &-news
+    background-color: #E6E9ED
+    padding: 20px 30px
+    margin-bottom: 30px
+    &-container
+      display: grid
+      grid-template-columns: 1.75fr 1fr
+      grid-template-rows: 2fr
+      justify-content: center
+      align-items: center
+      h3
+        padding: 0 10px 20px
+        text-align: center
+    &-img
+      grid-column: 1
+      img
+        width: 90%
+        max-width: 600px
+        display: block
+        border-radius: 10px
+        margin: auto
+    &-info
+      margin: auto
+      height: fit-content
+      grid-column: 2
+      h2
+        margin: 0 10px 15px
+      p
+        margin-bottom: 35px
+        letter-spacing: 2px
+  &__button
+    display: block
+    width: fit-content
+    padding: 7.5px 10px
+    border: 2px solid #47CFAC
+    border-radius: 8px
+    font-size: 1.4rem
+    font-weight: 700
+    margin: 20px auto
+    margin-left: calc(50% - 50px)
+    &:hover
+      background-color: rgba(0, 0, 0, .075)
+      
+  &-posts
+    padding: 0 50px 40px
+    h2
+      border-bottom: 1px solid #cdd2da
+      padding-bottom: 20px
+      text-align: center
+    &-container
+      width: 100%
+      margin-top: 50px
+      display: flex
+      flex-wrap: wrap
+      justify-content: space-between
+
+    &__content
+      display: inline-block
+      padding: 10px
+      width: 30%
+      max-width: 500px
+      min-width: 300px
+      margin-bottom: 50px
+      border: 2px solid #AAAAAA
+      border-radius: 20px
+      background-color: #EDEDED
+      box-shadow: 5px 5px 10px rgba(#000, .25)
+      transition: .6s
+      cursor: pointer
+      &:hover
+        transform: scale(1.1)
+      img
+        width: 100%
+        border-radius: 5%
+      h3
+        margin: 20px 0
+      p
+        margin-bottom: 30px

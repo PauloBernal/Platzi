@@ -1,0 +1,44 @@
+body
+  position: fixed
+  top: 0
+  bottom: 0
+  right: 0
+  left: 0
+  
+.home-main
+  font-family: monospace
+  display: grid
+  grid-template-columns: 1fr 4fr 1fr
+  height: 100%
+  background-image: url('/assets/img/Cover.png')
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center
+  &-container
+    display: grid
+    grid-column: 2
+    justify-items: center
+    height: 350px
+    margin-top: 80px
+  &__title
+    font-size: 3rem
+    text-align: center
+    font-weight: 700
+    letter-spacing: 10px
+    color: #FFFFFF
+  &__button
+    font-family: monospace
+    padding: 10px 20px
+    height: fit-content
+    width: fit-content
+    border: 2px solid transparent
+    border-radius: 10px
+    background-color: $bgColor1
+    transition: border .2ss
+    &:hover
+      cursor: pointer
+      border: 5px solid #FFF
+    a
+      color: #FFF
+      font-weight: 700
+      font-size: 1.8rem

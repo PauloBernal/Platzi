@@ -11,7 +11,6 @@
 | - Comunicación externa al editor | - Comunicación integrada |
 | - Documentación externa al editor | - Documentación integrada |
 
-
 ## Flujos branch
 
 ### Flujo Branch tradicional
@@ -23,26 +22,34 @@
 ### Flujo Branch Moderno
 
 #### Moderno
+
 1. Asignar ticket
 2. Crear branch
 3. Notificar al equipo
+
 #### Escribir código
+
 1. Pedir comentarios
 2. Obtener sugerencias
 3. Explicar dirección
+
 #### Sugerencias
+
 1. Antes de un pull request
 2. Comunicación informal
 3. Documenta el proceso
+
 #### Revisión de código pre-PR
+
 1. Antes de un pull request
 2. Comunicación formal
 3. Se incorpora al PR
+
 #### Aprobación final
+
 1. Antes de un pull request
 2. Aprobación formal
 3. Reducción de pasos
-
 
 ## Pull request o Feedback request (Shift Left)
 
@@ -54,3 +61,11 @@
 | - Eficiencia administrativa | - Más informal, más eficiente |
 
 En encuestas se determinó que el aumento de productividad al realizar Feedback request en vez de Pull request fue del **32\%**.
+
+---
+
+[Anterior](../1_Introduction/PracticeI.md)
+
+[Siguiente](./Class4.md)
+
+[Índice](../Intro.md)

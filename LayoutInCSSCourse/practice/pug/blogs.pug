@@ -1,0 +1,31 @@
+-var title = "Blog"
+-var styles = "blogs.css"
+-var blogtitle = "Título del blogpost"
+-var blogcontent = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi nobis voluptates quam enim delectus esse iusto voluptatem perferendis '
+-var blogs = [[blogtitle, 'post-1.png', blogcontent],[blogtitle, 'post-2.png', blogcontent],[blogtitle, 'post-3.png', blogcontent],[blogtitle, 'post-1.png', blogcontent],[blogtitle, 'post-2.png', blogcontent],[blogtitle, 'post-3.png', blogcontent]]
+
+doctype html
+html(lang="en")
+  include ./components/head.pug
+  body 
+    include ./components/header.pug
+    main.blogs
+      section.blogs-news
+        .blogs-news-container.grid-container
+          div
+            h3 Noticias
+            .blogs-news-img: img(src="/assets/img/main-news-img.png", alt="")
+          .blogs-news-info 
+            h2 Título del Blogpost
+            p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam molestias veritatis laboriosam quaerat, aliquam quod similique aliquid hic expedita autem deserunt quas sit fugiat libero sequi nisi at ipsum quidem!
+            a.blogs__button(href="/blog.html") Leer más
+      section.blogs-posts
+        h2 Últimos posts
+        .blogs-posts-container.grid-container
+          each blog in blogs
+            article.blogs-posts__content
+              img(src="/assets/img/"+blog[1], alt=blog[1])
+              h3 #{blog[0]}
+              p #{blog[2]}
+              a.blogs__button(href="/blog.html") Leer más
+    include ./components/footer.pug

@@ -1,0 +1,16 @@
+@media screen and (max-width: 900px)
+  .blogs
+    &-news
+      &-container
+        grid-template-columns: 1fr
+        grid-template-rows: auto auto
+        grid-row-gap: 20px
+        div
+          grid-column: 1
+      &-info
+        grid-column: 2
+      &-posts
+        padding: 0
+        &-content
+          min-width: 250px
+          margin: auto

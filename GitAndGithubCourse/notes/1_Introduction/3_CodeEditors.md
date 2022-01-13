@@ -3,6 +3,7 @@
 ## Editores de código
 
 Los editores de código son programas de edición de texto plano. Algunas alternativas son:
+
 - Atom (Hecho por los creadores de Github)
 - Sublime Text (No es de código abierto)
 - Visual Studio Code (El más popular actualmente)
@@ -15,9 +16,7 @@ Son aquellos archivos que están conformados simplemente por texto comprensible 
 
 Son aquellos que no pueden ser comprendidos por un ser humano sin necesidad de un programa capaz de interpretarlo (porque están completamente en lenguaje máquina)
 
-
 Git es mucho más útil para trabajar con archivos de texto plano que con archivos binarios debido a que es más fácil registrar cambios en texto plano que cambios en archivos binarios.
-
 
 ---
 
