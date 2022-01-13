@@ -58,7 +58,7 @@ Si se quiere utilizar una sola propiedad para definir el espaciado de filas y co
 
 Las áreas como se dijo anteriormente, son un conjunto de celdas, las cuales también se pueden disponer con propiedades de grid. Para definir elementos en áreas específicas se utiliza la propiedad `grid-template-areas`, los valores son cadenas de texto entre comilllas que tienen los nombres de los elementos dentro separados por espacios. si no se quiere colocar ningún elemento en una celda simplemente se colca un punto (`.`) para indicar que es una celda vacía. Dentro de las cadenas de texto se colocan los nombres por columnas y cada cadena de texto es una fila:
 
-~~~css
+~~~css 
 .parent {
   display: grid;
   grid-template: ... /...;
@@ -66,6 +66,6 @@ Las áreas como se dijo anteriormente, son un conjunto de celdas, las cuales tam
     "el-name11 elname12 ... elname1N"
     "el-name21 elname22 ... elname2N"
     ...
-    "el-nameM1 elnameM2 ... elnameMN"
+    "el-nameM1 elnameM2 ... elnameMN";
 }
 ~~~

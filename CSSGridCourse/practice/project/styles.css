@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #DDD;
+}
+
+.header {
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #FFF;
+}
+
+.header-nav {
+  width: 40%;
+}
+
+.header-nav__bar {
+  height: 35px;
+  width: 40%;
+  min-width: 200px;
+  max-width: 700px;
+  border: 2px solid #BBB;
+  box-shadow: 1px 1px 3px #AAA;
+  border-radius: 5px;
+  outline: none;
+}
